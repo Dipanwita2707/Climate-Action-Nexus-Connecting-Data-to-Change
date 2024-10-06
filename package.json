@@ -1,0 +1,26 @@
+{
+    "name": "climate-change-webapp",
+    "version": "1.0.0",
+    "description": "A futuristic climate change web app with AI-powered chatbot, real-time climate data, carbon footprint calculator, and climate simulation game.",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "dev": "nodemon server.js"
+    },
+    "dependencies": {
+        "axios": "^0.24.0",
+        "bootstrap": "^4.5.2",
+        "chart.js": "^3.5.1",
+        "dotenv": "^10.0.0",
+        "ejs": "^3.1.6",
+        "express": "^4.17.1",
+        "express-rate-limit": "^7.4.1",
+        "mongoose": "^6.0.12",
+        "three": "^0.169.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.15"
+    },
+    "author": "Your Name",
+    "license": "ISC"
+}
